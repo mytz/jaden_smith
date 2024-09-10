@@ -344,15 +344,3 @@ html, body {
 .section4-text .space-mono-bold {
     font-weight: 700; 
 }
-
-
-        .mute {
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            cursor: pointer;
-            display: block;
-            width: 15px; 
-            height: 15px; 
-            padding: 20px; 
-        }
