@@ -53,36 +53,6 @@
             <img src="FONDOSECTION3.png" alt="Fondo Section 3" class="fondo-section3">
         </div>
     </div>
-    <img src="muted.png" alt="mute" class="mute" onclick="ocultarMute()">
-
-    <audio id="sonido" preload="auto">
-        <source src="click5.wav" type="audio/wav">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-
-    <script>
-        function playSoundAndChangeImage(soundFileName, newImageSrc) {
-            var audio = document.getElementById('sonido');
-            audio.src = soundFileName;
-            audio.play();
-
-            var image = document.querySelector('.boton1 img');
-            image.src = newImageSrc;
-        }
-
-        function resetImage(originalImageSrc) {
-            var image = document.querySelector('.boton1 img');
-            image.src = originalImageSrc;
-        }
-
-        function ocultarMute() {
-            var muteButton = document.querySelector('.mute');
-            muteButton.style.display = 'none';
-            document.removeEventListener('click', ocultarMute);
-        }
-
-        document.addEventListener('click', ocultarMute);
-    </script>
 
     <script src="script.js"></script>
 </body>
