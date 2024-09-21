@@ -151,9 +151,9 @@ document.addEventListener('DOMContentLoaded', function() {
     updateSong(); 
 });
 
+
 document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.btn');
-    const bratLogo = document.querySelector('.bratlogo'); 
 
     buttons.forEach(button => {
         button.addEventListener('mouseenter', () => {
@@ -162,10 +162,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    if (bratLogo) {
-        bratLogo.addEventListener('mouseenter', () => {
-            const audio = new Audio('hover.wav');
-            audio.play();
-        });
-    }
 });
