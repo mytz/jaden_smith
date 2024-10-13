@@ -1,4 +1,4 @@
-// función de arrastrar el rectángulo q me robé de Diana je, muxas gracias 
+// función de arrastrar el rectángulo q me robé de Diana (nymphia), muxas gracias  
 
 const rectangle = document.querySelector('.rectangle');
 const titleBar = document.querySelector('.title-bar');
