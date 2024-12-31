@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     lightButton.addEventListener('click', function() {
         if (isLightOn) {
-            body.style.backgroundImage = "url('fondo1.png')";
+            body.style.backgroundImage = "url('fondo3.png')";
             updateButtonHover(lightButton, 'LIGHTSOFF1.png', 'LIGHTSOFF2.png', 'LIGHTSOFF1.png', 'LIGHTSOFF2.png');
         } else {
-            body.style.backgroundImage = "url('fondo3.png')";
+            body.style.backgroundImage = "url('fondo2.png')";
             updateButtonHover(lightButton, 'LIGHTSON1.png', 'LIGHTSON2.png', 'LIGHTSON1.png', 'LIGHTSON2.png');
         }
         isLightOn = !isLightOn;
