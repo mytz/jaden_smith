@@ -12,7 +12,7 @@ body {
 
 .rectangle {
     width: 433px;
-    height: 382px;
+    height: 352px;
     background-color: rgba(76, 175, 80, 0); 
     border-radius: 4px;
     border: 1px solid #545454; 
@@ -267,7 +267,7 @@ html, body {
 
 .section-4 {
     width: 433px;
-    height: 120px;
+    height: 95px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -329,7 +329,7 @@ html, body {
 .section4-text {
     color: black; 
     position: absolute;
-    bottom: 65px; 
+    bottom: 70px; 
     left: 20px; 
     right: 22px; 
     line-height: 1;
