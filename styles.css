@@ -155,7 +155,7 @@ html, body {
 
 #playButton {
     position: absolute;
-    bottom: 151px;
+    bottom: 128px;
     right: 98px;
     font-size: 20px;
     color: black;
@@ -165,7 +165,7 @@ html, body {
 
 #pauseButton {
     position: absolute;
-    bottom: 151px;
+    bottom: 128px;
     right: 100px;
     font-size: 20px;
     color: black;
@@ -175,7 +175,7 @@ html, body {
 
 #forwardButton {
     position: absolute;
-    bottom: 155px;
+    bottom: 132px;
     right: 79px;
     font-size: 12px;
     color: black;
@@ -185,7 +185,7 @@ html, body {
 
 #backwardButton {
     position: absolute;
-    bottom: 155px;
+    bottom: 132px;
     right: 122px;
     font-size: 12px;
     color: black;
@@ -194,7 +194,7 @@ html, body {
 
 .songTitleWrapper {
     position: absolute;
-    bottom: 181px; 
+    bottom: 151px; 
     right: 8px;
     width: 205px;
     overflow: hidden; 
