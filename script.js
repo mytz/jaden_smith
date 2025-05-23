@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             rectangle.style.height = '155px';
             updateButtonHover(minimizeButton, 'EXPAND1.png', 'EXPAND2.png', 'EXPAND1.png', 'EXPAND2.png');
         } else {
-            rectangle.style.height = '382px';
+            rectangle.style.height = '352px';
             updateButtonHover(minimizeButton, 'MIN1.png', 'MIN2.png', 'MIN1.png', 'MIN2.png');
         }
         isExpanded = !isExpanded;
